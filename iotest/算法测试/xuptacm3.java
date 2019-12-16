@@ -1,0 +1,15 @@
+package iotest.算法测试;
+
+        import java.math.BigInteger;
+        import java.util.Scanner;
+
+public class xuptacm3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        String s1 = sc.next();
+        BigInteger a = new BigInteger(s);
+        BigInteger b= new BigInteger(s1);
+        System.out.println(a.multiply(b));
+    }
+}
